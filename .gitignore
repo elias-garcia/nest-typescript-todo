@@ -1,0 +1,19 @@
+# Dependencies
+/node_modules
+
+# System Files
+/.DS_Store
+/Thumbs.db
+
+# IDE
+/.idea
+/.awcache
+/.vscode/*
+
+# Misc
+npm-debug.log
+
+# Tests
+/test
+/coverage
+/.nyc_output
