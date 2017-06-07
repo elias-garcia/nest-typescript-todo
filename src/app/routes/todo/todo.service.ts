@@ -1,6 +1,6 @@
 import { ToDoUnprocessableException, ToDoNotFoundException } from './todo.exceptions';
 import { isToDo, IToDo } from './todo.model';
-import { Component } from 'nest.js';
+import { Component } from '@nestjs/common';
 
 @Component()
 export class ToDoService {

@@ -4,10 +4,19 @@
   "description": "Nest framework todo example api",
   "license": "ISC",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "prestart:prod": "tsc",
+    "start:prod": "node dist/server.js"
   },
   "dependencies": {
-    "nest.js": "*",
+    "@nestjs/common": "*",
+    "@nestjs/core": "*",
+    "@nestjs/microservices": "*",
+    "@nestjs/testing": "*",
+    "@nestjs/websockets": "*",
+    "redis": "^2.7.1",
+    "reflect-metadata": "^0.1.10",
+    "rxjs": "^5.4.0",
     "typescript": "^2.2.1"
   },
   "devDependencies": {
